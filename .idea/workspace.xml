@@ -4,11 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="591474f5-4a7c-4bdf-9484-099ad41eb1fb" name="Changes" comment="" />
+    <list default="true" id="591474f5-4a7c-4bdf-9484-099ad41eb1fb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/AdvInfo.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/AdvInfoData.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/AdvInfoFieldRef.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/DataRow.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/Event.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/ExchangeInfoMessage.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/Header.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/MessageEnums.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/OwnCommand.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/Parameter.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/Request.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/Response.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/Status.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/ValueRef.proto" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Oz5zMZyeZFxbBCCZYCxKRBAKnO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -20,9 +47,15 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Theke/Desktop/java/NotNullProject"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Theke\Desktop\java\NotNullTestService\src\main\proto" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -31,8 +64,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682550832901</updated>
+      <workItem from="1682550834178" duration="17013000" />
+      <workItem from="1682598526919" duration="5241000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
