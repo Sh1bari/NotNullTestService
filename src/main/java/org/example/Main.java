@@ -1,9 +1,6 @@
 package org.example;
 
-import ru.sovcombank.hackaton.proto.ExchangeInfoMessage;
-import ru.sovcombank.hackaton.proto.MessageEnumsProto;
-import ru.sovcombank.hackaton.proto.OwnCommand;
-import ru.sovcombank.hackaton.proto.Request;
+import ru.sovcombank.hackaton.proto.*;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -14,10 +11,61 @@ public class Main {
         Socket socket = new Socket("localhost", 8888);
         OutputStream out = socket.getOutputStream();
         ExchangeInfoMessage exchangeInfoMessage = ExchangeInfoMessage.newBuilder()
+                .setHeader(Header.newBuilder()
+                        .setMessageNum("1")
+                        .setTimestamp(System.currentTimeMillis())
+                        .setSender("NotNullTestService")
+                        .setReceiver("NotNullServer")
+                        .build())
+
                 .setRequest(Request.newBuilder()
                         .setCommand(MessageEnumsProto.CommandType.ctHandshake)
-                        .setCommandForExec(OwnCommand.newBuilder()
-                                .setAlias("hello")
+                        .addSupportedCommands(OwnCommand.newBuilder()
+                                .setAlias("Идентификатор 1")
+                                .setCaption("Заголовок 1")
+                                .setDescription("Описание команды 1")
+                                .addParameters(Parameter.newBuilder()
+                                        .setAlias("Идентификатор команды 1")
+                                        .setCaption("Заголовок команды 1")
+                                        .setHint("Подсказка команды 1")
+                                        .setValue(ValueRef.newBuilder()
+                                                .setDataType(MessageEnumsProto.DataType.dtString)
+                                                .setFormat("формат данных")
+                                                .build())
+                                        .build())
+                                .addParameters(Parameter.newBuilder()
+                                        .setAlias("Идентификатор команды 2")
+                                        .setCaption("Заголовок 2 команды")
+                                        .setHint("Подсказка команды 2")
+                                        .setValue(ValueRef.newBuilder()
+                                                .setDataType(MessageEnumsProto.DataType.dtString)
+                                                .setFormat("формат данных")
+                                                .build())
+                                        .build())
+                                .build())
+                        .addSupportedCommands(OwnCommand.newBuilder()
+                                .setAlias("Идентификатор 2")
+                                .setCaption("Заголовок 2")
+                                .setDescription("Описание команды 2")
+                                .addParameters(Parameter.newBuilder()
+                                        .setAlias("Идентификатор команды 1")
+                                        .setCaption("Заголовок команды 1")
+                                        .setHint("Подсказка команды 1")
+                                        .setValue(ValueRef.newBuilder()
+                                                .setDataType(MessageEnumsProto.DataType.dtString)
+                                                .setFormat("формат данных")
+                                                .setValue("test value")
+                                                .build())
+                                        .build())
+                                .addParameters(Parameter.newBuilder()
+                                        .setAlias("Идентификатор команды 2")
+                                        .setCaption("Заголовок 2 команды")
+                                        .setHint("Подсказка команды 2")
+                                        .setValue(ValueRef.newBuilder()
+                                                .setDataType(MessageEnumsProto.DataType.dtString)
+                                                .setFormat("формат данных")
+                                                .build())
+                                        .build())
                                 .build())
                         .build())
                 .build();
@@ -25,6 +73,6 @@ public class Main {
         byte[] data = exchangeInfoMessage.toByteArray();
         out.write(data);
         out.flush();
-        Thread.sleep(9999999);
+        Thread.sleep(999999);
     }
 }
