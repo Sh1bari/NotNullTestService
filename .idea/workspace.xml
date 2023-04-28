@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="591474f5-4a7c-4bdf-9484-099ad41eb1fb" name="Changes" comment="test" />
+    <list default="true" id="591474f5-4a7c-4bdf-9484-099ad41eb1fb" name="Changes" comment="test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +43,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Theke\Desktop\java\NotNullTestService\src\main\proto" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Theke\Desktop\java\NotNullTestService\src\main\resources" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -52,7 +57,7 @@
       <updated>1682550832901</updated>
       <workItem from="1682550834178" duration="17013000" />
       <workItem from="1682598526919" duration="14211000" />
-      <workItem from="1682636139038" duration="9607000" />
+      <workItem from="1682636139038" duration="10923000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1682606394818</created>
@@ -103,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682670975330</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="test">
+      <created>1682671141432</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1682671141432</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
