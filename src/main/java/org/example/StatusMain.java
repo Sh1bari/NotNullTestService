@@ -1,13 +1,12 @@
 package org.example;
 
-import com.google.protobuf.util.JsonFormat;
 import ru.sovcombank.hackaton.proto.*;
 
 import java.io.IOException;
 import java.io.OutputStream;
 import java.net.Socket;
 
-public class Main {
+public class StatusMain {
     public static void main(String[] args) throws IOException, InterruptedException {
         Socket socket = new Socket("localhost", 8888);
         OutputStream out = socket.getOutputStream();
@@ -15,7 +14,7 @@ public class Main {
                 .setHeader(Header.newBuilder()
                         .setMessageNum("1")
                         .setTimestamp(System.currentTimeMillis())
-                        .setSender("NotNullTestService")
+                        .setSender("NotNullTestService123")
                         .setReceiver("NotNullServer")
                         .build())
 
@@ -73,7 +72,6 @@ public class Main {
         byte[] data = exchangeInfoMessage.toByteArray();
         out.write(data);
         out.flush();
-        Thread.sleep(10000);
-        socket.close();
+        Thread.sleep(999999);
     }
 }
