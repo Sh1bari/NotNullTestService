@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="591474f5-4a7c-4bdf-9484-099ad41eb1fb" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/src/main/proto/DataFieldValue.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/proto/DataRow.proto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/proto/DataRow.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/proto/Request.proto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/proto/Request.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/proto/ValueRef.proto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/proto/ValueRef.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/compiledProto.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/compiledProto.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,14 +42,16 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Theke/Desktop/java/NotNullTestService"
+    "last_opened_file_path": "D:/Java Projects/NotNullTestService/src/main/proto"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java Projects\NotNullTestService\src\main\proto" />
       <recent name="C:\Users\Theke\Desktop\java\NotNullTestService\src\main\proto" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Java Projects\NotNullTestService\src\main\resources" />
       <recent name="C:\Users\Theke\Desktop\java\NotNullTestService\src\main\resources" />
     </key>
   </component>
@@ -58,6 +66,8 @@
       <workItem from="1682550834178" duration="17013000" />
       <workItem from="1682598526919" duration="14211000" />
       <workItem from="1682636139038" duration="10923000" />
+      <workItem from="1682761772988" duration="5615000" />
+      <workItem from="1682777406025" duration="14228000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1682606394818</created>
