@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="591474f5-4a7c-4bdf-9484-099ad41eb1fb" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ResponseRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Event.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ResponseRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ResponseRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/compiledProto.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +67,7 @@
       <workItem from="1682598526919" duration="14211000" />
       <workItem from="1682636139038" duration="10923000" />
       <workItem from="1682761772988" duration="5615000" />
-      <workItem from="1682777406025" duration="22443000" />
+      <workItem from="1682777406025" duration="26378000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1682606394818</created>
@@ -130,7 +132,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682799608293</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="test">
+      <created>1682820845931</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682820845931</updated>
+    </task>
+    <task id="LOCAL-00011" summary="test">
+      <created>1682820945746</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1682820945746</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,5 +166,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <option name="LAST_COMMIT_MESSAGE" value="test" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>347</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
