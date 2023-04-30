@@ -5,8 +5,7 @@ import com.google.protobuf.MessageOrBuilder;
 import com.google.protobuf.util.JsonFormat;
 import ru.sovcombank.hackaton.proto.*;
 
-import java.io.IOException;
-import java.io.OutputStream;
+import java.io.*;
 import java.net.Socket;
 
 public class NewMain {
@@ -346,8 +345,10 @@ public class NewMain {
         out.write(data);
         out.flush();
         //Thread.sleep(10000);
+        /*InputStream in = socket.getInputStream();
+        ExchangeInfoMessage message = ExchangeInfoMessage.parseFrom(readAllBytes(socket));
+        System.out.println(toJson(message));*/
 
-        System.out.println(toJson(exchangeInfoMessageStatus));
         byte[] dataStatus = exchangeInfoMessageStatus.toByteArray();
         out.write(dataStatus);
         out.flush();
@@ -356,5 +357,23 @@ public class NewMain {
     }
     public static String toJson(MessageOrBuilder messageOrBuilder) throws IOException {
         return JsonFormat.printer().includingDefaultValueFields().print(messageOrBuilder);
+    }
+    public static byte[] readAllBytes(Socket socket){
+        byte[] data = null;
+        int length = -1;
+        ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+        try {
+            DataInputStream in1 = new DataInputStream(socket.getInputStream());
+            while (true) {
+                if ((length = in1.available()) > 0) {
+                    data = new byte[length];
+                    in1.readFully(data, 0, length);
+                    outputStream.write(data, 0, length);
+                    break;
+                }
+            }
+        } catch (IOException e) {
+        }
+        return data;
     }
 }
