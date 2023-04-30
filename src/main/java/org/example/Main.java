@@ -349,6 +349,6 @@ public class Main {
         out.write(dataStatus);
         out.flush();
         Thread.sleep(10000);
-        socket.close();
+        socket.close();//
     }
 }
